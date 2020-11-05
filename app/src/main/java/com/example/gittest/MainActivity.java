@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         setTvSize();
         Log.e("test", "hello");
         Log.d("test", "hello2");
+        //sub1
     }
 
     private void setTvColor(){
