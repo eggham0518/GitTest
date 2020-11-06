@@ -20,10 +20,12 @@ public class MainActivity extends AppCompatActivity {
         setTvSize();
         Log.e("test", "hello");
         Log.d("test", "hello2");
+
+        Log.w("test", "hello2");
     }
 
     private void setTvColor(){
-       binding.tvHelloWorld.setTextColor(Color.RED);
+       binding.tvHelloWorld.setTextColor(Color.BLACK);
     }
 
     private void setTvSize(){
