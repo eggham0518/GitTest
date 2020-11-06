@@ -14,5 +14,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
+        setTvSize();
+    }
+
+    private void setTvSize(){
+        binding.tvHelloWorld.setTextSize(20f);
     }
 }
