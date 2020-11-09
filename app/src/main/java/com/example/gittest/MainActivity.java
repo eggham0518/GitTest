@@ -18,10 +18,6 @@ public class MainActivity extends AppCompatActivity {
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
         setTvColor();
         setTvSize();
-        Log.e("test", "hello");
-        Log.d("test", "hello2");
-
-        Log.w("test", "hello2");
     }
 
     private void setTvColor(){
@@ -31,5 +27,4 @@ public class MainActivity extends AppCompatActivity {
     private void setTvSize(){
         binding.tvHelloWorld.setTextSize(20f);
     }
-}
 }
