@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
         setTvColor();
         setTvSize();
+        //this v1.1.0 with bug
     }
 
     private void setTvColor(){
